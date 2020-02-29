@@ -1,15 +1,22 @@
 import React from 'react';
+import Data from '../data.json';
 
 class Body extends React.Component {
 
-  render () {
+  render() {
     return (
       <React.Fragment>
-        <div className="search">
-          <input type="text" class="searchTerm" placeholder="Ricerca un prodotto"></input>
-          <button type="submit" className="searchButton">
-            <i className="fa fa-search"></i>
-          </button>
+        <div className="container">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+          </ul>
         </div>
       </React.Fragment>
     );
